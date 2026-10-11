@@ -1,5 +1,11 @@
 # Twitch + Discord Chat Overlay
 
+<img width="312" height="452" alt="Screenshot 2026-10-11 160002" src="https://github.com/user-attachments/assets/c3240cb0-bcc5-4e9a-83fc-cdda43f5fed1" />
+
+<img width="176" height="72" alt="image" src="https://github.com/user-attachments/assets/0316fa37-6845-4cb4-9289-a65bfc5983c9" />
+
+<img width="460" height="73" alt="image" src="https://github.com/user-attachments/assets/273fb713-4747-4d3b-b8af-7288d6cf6c92" />
+
 A somewhat sketchy (and sometimes broken) self-hosted chat overlay that merges Twitch and Discord, built entirely from scratch using JavaScript, ComfyJs, Node.js.
 
 ### Main Features include:
