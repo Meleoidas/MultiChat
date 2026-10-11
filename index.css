@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'FredokaOne';
+  src: url('fonts/FredokaOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+#chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0%;
+  width: 800px;
+  height: 100%;
+}
+
+#chat > * {
+  text-align: end;
+}
+
+.message {
+  font-family: Montserrat;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 35px;
+  margin-right: 4px;
+}
+
+.username {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.content {
+  color: white;
+  font-weight: bold;
+}
+
+.glow {
+  text-shadow: 0 0 2px rgb(91, 48, 131), 0 0 4px rgb(91, 48, 131), 0 0 6px rgb(91, 48, 131), 0 0 8px rgb(91, 48, 131), 0 0 10px rgb(91, 48, 131), 0 0 12px rgb(91, 48, 131), 0 0 14px rgb(91, 48, 131);
+}
+
+.follow {
+  margin-bottom: 10px;
+}
+
+.follow * {
+  font-family: 'FredokaOne';
+}
+
+.outer {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  clip-path: inset(0 round 10px);
+  width: auto;
+  padding-right: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.outer::after {
+  content: '';
+  position: absolute;
+  background-color: #00d0ff;
+  height: 100%;
+  width: 10px;
+  clip-path: inset(0 0 0 0 round 0 10px 10px 0);
+  right: 0%;
+}
+
+.inner {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.follower {
+  text-align: center;
+  font-size: 50px;
+  padding: 15px 40px 45px 60px;
+  clip-path: inset(0 0 0 0 round 10px 0 0 10px);
+  background: linear-gradient(to right, rgba(42, 42, 47, 0.2) 0%, rgb(57, 57, 64, 0.5) 100%);
+}
+
+.follower-extra {
+  color: white;
+  position: absolute;
+  top: 65%
+}
+
+.sub .outer::after {
+  background-color: rgb(241, 178, 50)
+}
+.sub .follower {
+  padding: 15px 50px 70px 60px;
+  background: linear-gradient(to right, rgba(152,32,0, 0.2) 0%, rgb(152,32,0, 0.8) 100%);
+}
+.sub .follower-extra {
+  top: 80%;
+}
+
+.sub-tier {
+  color: rgb(241,178,50);
+  top: 55% !important;
+  font-size: 25px;
+}

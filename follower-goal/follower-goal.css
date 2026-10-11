@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'FredokaOne';
+  src: url('../fonts/FredokaOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+}
+
+#text {
+  display: inline-block;
+  font-size: 50px;
+  font-family: 'FredokaOne';
+  clip-path: inset(0 round 100px);
+  color: white;
+  background: linear-gradient(to right, 
+    rgba(70, 67, 133, 1) 0%, 
+    rgba(28, 27, 53, 1) 0%
+  );
+  padding: 10px 40px;
+  position: relative;
+}
