@@ -6,7 +6,7 @@
 
 <img width="460" height="73" alt="image" src="https://github.com/user-attachments/assets/273fb713-4747-4d3b-b8af-7288d6cf6c92" />
 
-A somewhat sketchy (and sometimes broken) self-hosted chat overlay that merges Twitch and Discord, built entirely from scratch using JavaScript, ComfyJs, Node.js.
+A somewhat scuffed (and sometimes broken) self-hosted chat overlay that merges Twitch and Discord, built entirely from scratch using JavaScript, ComfyJs, Node.js.
 
 ### Main Features include:
 - a Discord + Twitch chat overlay
